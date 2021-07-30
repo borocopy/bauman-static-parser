@@ -1,4 +1,3 @@
-console.log(__dirname);
 const { generateHomePage, generateSubPages } = require('./generator/generator');
 const updateData = require('./updater/updater');
 
