@@ -4,7 +4,8 @@
   "description": "",
   "main": "bootstrap.js",
   "scripts": {
-    "build:css": "postcss ./dist/main.css -o ./public/styles.css"
+    "build:css": "postcss ./dist/main.css -o ./public/styles.css",
+    "build": "npm run build:css && node ."
   },
   "keywords": [],
   "author": "",
