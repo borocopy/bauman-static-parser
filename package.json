@@ -2,9 +2,9 @@
   "name": "bshit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bootstrap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "postcss ./dist/main.css -o ./public/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,12 @@
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
     "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.7"
   }
 }
