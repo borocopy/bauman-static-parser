@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ['./generator/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {

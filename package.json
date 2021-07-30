@@ -4,14 +4,13 @@
   "description": "",
   "main": "bootstrap.js",
   "scripts": {
-    "build:css": "postcss ./dist/main.css -o ./public/styles.css",
-    "build": "npm run build:css && node ."
+    "build:css": "NODE_ENV=production postcss ./dist/main.css -o ./build/styles.css",
+    "build": "NODE_ENV=production npm run build:css && node ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
     "pdf-parse": "^1.1.1"
   },
